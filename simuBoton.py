@@ -7,7 +7,7 @@ def decoratosBoton(func):
     def wrapper_Boton(*args, **kwargs):
         global n
         n += func(*args, **kwargs)
-
+        print(func(*args, **kwargs))
         return n
 
     return wrapper_Boton
