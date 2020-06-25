@@ -336,4 +336,3 @@ def randomly_greet(name):
 
 El principal beneficio de esta sencilla arquitectura de complementos es que no necesita mantener una lista de los complementos que existen. Esa lista se crea cuando los complementos se registran. Esto hace que sea trivial agregar un nuevo complemento: solo defina la función y decore con ella @register.
 
-# ¿El usuario ha iniciado sesión?
